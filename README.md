@@ -10,6 +10,26 @@
 
 ![enterprise-ai-stack 四大子系统总览](docs/enterprise-ai-stack-overview.png)
 
+## 🎬 一条命令跑通（真实终端录制）
+
+4 个仓库各自的 `make demo` **真实终端录制**（不是模拟动画，输出逐行来自实际运行）：
+
+**semantic-sql-guard** — 语义命中 → 行级权限内联 → 敏感表拦截 → 审计留痕
+
+![semantic-sql-guard quickstart](docs/quickstart/semantic-sql-guard.gif)
+
+**enterprise-ai-eval-harness** — 跑评测 → 出指标 → 版本对比 → 归档 badcase → 验收报表
+
+![enterprise-ai-eval-harness quickstart](docs/quickstart/enterprise-ai-eval-harness.gif)
+
+**enterprise-rag-gateway** — 语料同步 → 检索 → 敏感词遮罩 → 召回阶段权限过滤 → 审计
+
+![enterprise-rag-gateway quickstart](docs/quickstart/enterprise-rag-gateway.gif)
+
+**workmate-agent-orchestrator** — 人工审批介入 → 条件门跳过 → 越权中止 → 步骤级权限 → 重试/超时
+
+![workmate-agent-orchestrator quickstart](docs/quickstart/workmate-agent-orchestrator.gif)
+
 ## 一句话简介
 
 给**做 B 端 / 央企私有化 AI 交付**的工程师一套能直接用的底座：**问数有权限网关、效果有评测基座、知识有 RAG 权限控制、流程有编排与人工接管**。
