@@ -1,6 +1,6 @@
 # enterprise-ai-stack
 
-[![Python](https://img.shields.io/badge/python-%E2%89%A53.10-3776AB)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-7A8796)](https://github.com/fenrir1111/enterprise-ai-stack) [![Repos](https://img.shields.io/badge/repos-4-555555)]() [![Tests](https://img.shields.io/badge/tests-136_passing-43853D)]()
+[![Python](https://img.shields.io/badge/python-%E2%89%A53.10-3776AB)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-7A8796)](https://github.com/fenrir1111/enterprise-ai-stack) [![Repos](https://img.shields.io/badge/repos-4-555555)]() [![Tests](https://img.shields.io/badge/tests-144_passing-43853D)]()
 
 > FDE阿泽 · B端私有化 AI 交付底座合集（央企 / 国企私有化落地）
 
@@ -31,12 +31,12 @@
 
 | 仓库 | 定位 | 核心能力 | 测试 |
 |---|---|---|---|
-| [semantic-sql-guard](https://github.com/fenrir1111/semantic-sql-guard) | 语义问数安全网关 | 语义层 · SQL 静态安全 · 行级权限 · 结果异常校验 | 36 |
-| [enterprise-ai-eval-harness](https://github.com/fenrir1111/enterprise-ai-eval-harness) | 企业级 AI 评测基座 | 统一评测 · LLM-as-judge · 版本对比 · badcase · 验收报表 | 33 |
-| [enterprise-rag-gateway](https://github.com/fenrir1111/enterprise-rag-gateway) | 私有化 RAG 权限网关 | 多租户隔离 · 文档级权限 · 增量同步 · 敏感过滤 · 审计 | 34 |
-| [workmate-agent-orchestrator](https://github.com/fenrir1111/workmate-agent-orchestrator) | 数字员工流程编排 | 状态机 · 三级权限白名单 · HITL · 重试/超时 · 方案包导出 | 33 |
+| [semantic-sql-guard](https://github.com/fenrir1111/semantic-sql-guard) | 语义问数安全网关 | 语义层 · SQL 静态安全 · 行级权限 · 结果异常校验 | 38 |
+| [enterprise-ai-eval-harness](https://github.com/fenrir1111/enterprise-ai-eval-harness) | 企业级 AI 评测基座 | 统一评测 · LLM-as-judge · 版本对比 · badcase · 验收报表 | 35 |
+| [enterprise-rag-gateway](https://github.com/fenrir1111/enterprise-rag-gateway) | 私有化 RAG 权限网关 | 多租户隔离 · 文档级权限 · 增量同步 · 敏感过滤 · 审计 | 36 |
+| [workmate-agent-orchestrator](https://github.com/fenrir1111/workmate-agent-orchestrator) | 数字员工流程编排 | 状态机 · 三级权限白名单 · HITL · 重试/超时 · 方案包导出 | 35 |
 
-合计 **136 个测试全绿**，4 库均为 MIT 协议。
+合计 **144 个测试全绿**，4 库均为 MIT 协议，均带 GitHub Actions CI（单测 + demo + 双服务冒烟）。
 
 ## 技术栈与工程约定
 
